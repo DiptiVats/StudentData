@@ -1,0 +1,12 @@
+.student-registration {
+  width: 90%;
+  background: rgb(22, 39, 39);
+  height: 50px;
+  color: aqua;
+  border-radius: 12px;
+  position: fixed;
+  margin-left: 5%;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px;
+}
