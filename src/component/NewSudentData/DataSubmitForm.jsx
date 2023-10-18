@@ -23,8 +23,8 @@ const DataSubmitForm = (props) => {
     const enteredData = {
       studentName: enteredName,
       studentAge: enteredAge,
-      studentEnrolmentNo: enteredEnrolmentNo,
-      studentEmailId: enteredEmailId,
+      enrolmentNo: enteredEnrolmentNo,
+      emailId: enteredEmailId,
     };
     props.onSaveStudentData(enteredData);
     setEnteredName("");

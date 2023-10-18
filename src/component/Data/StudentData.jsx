@@ -1,16 +1,18 @@
 import "./StudentData.css";
+import noProfile from "../StudentPicture/noProfile.png";
+
 const StudentData = (props) => {
   return (
     <div className="main-container">
       <div className="name-and-email">
-        <div className="name-student">{props.allD.studentName}</div>
-        <div className="email-student">{props.allD.emailId}</div>
+        <div className="name-student">{props.studentName}</div>
+        <div className="email-student">{props.emailId}</div>
       </div>
       <div className="enrolment-student">
-        Enrollment Number : {props.allD.enrolmentNo}
+        Enrollment Number : {props.enrolmentNo}
       </div>
       <div className="student-photo">
-        <img src={props.allD.studentImage} alt="NoImage" />
+        <img src={noProfile} alt="NoImage" />
       </div>
     </div>
   );

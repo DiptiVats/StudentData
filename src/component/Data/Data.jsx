@@ -2,9 +2,14 @@ import StudentData from "./StudentData";
 const Data = (props) => {
   return (
     <>
-      <StudentData allD={props.allData[0]} />
-      <StudentData allD={props.allData[1]} />
-      <StudentData allD={props.allData[2]} />
+      {props.allData.map((data) => (
+        <StudentData
+          studentName={data.studentName}
+          studentAge={data.studentAge}
+          emailId={data.emailId}
+          enrolmentNo={data.enrolmentNo}
+        />
+      ))}
     </>
   );
 };
