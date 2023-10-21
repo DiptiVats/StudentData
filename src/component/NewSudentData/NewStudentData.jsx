@@ -5,7 +5,6 @@ const NewStudentData = (props) => {
       ...Data,
       id: Math.random().toString(),
     };
-    console.log(newData);
     props.onSaveData(newData);
   };
 

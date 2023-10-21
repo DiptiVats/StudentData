@@ -8,18 +8,19 @@ const App = () => {
     {
       studentName: "Yesh Sharma",
       enrolmentNo: 7015,
+      id: "d1",
       emailId: "yesh@gmail.com",
     },
     {
       studentName: "Pooja Sharma",
-      studentAge: 20,
-      enrolmentNo: 8851,
+      enrolmentNo: 7016,
+      id: "d2",
       emailId: "pooja@gmail.com",
     },
     {
       studentName: "Monika Swami",
-      studentAge: 21,
-      enrolmentNo: 4586,
+      enrolmentNo: 7017,
+      id: "d3",
       emailId: "monika@gmail.com",
     },
   ];
@@ -28,7 +29,6 @@ const App = () => {
     setDynamicData((prevData) => {
       return [sData, ...prevData];
     });
-    console.log(saveData);
   };
   return (
     <>

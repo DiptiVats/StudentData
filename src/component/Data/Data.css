@@ -1,2 +1,23 @@
-.option {
+.enrolment-search {
+  height: 25px;
+  margin: 15px 15px 17px;
+  min-width: 250px;
+
+  border-radius: 5px;
+  border: 2px solid rgb(151, 151, 151);
+}
+.main {
+  float: right;
+  width: 90%;
+  background-color: rgb(11, 39, 39);
+  margin: 10px 5% 12px;
+  border-radius: 12px;
+  margin-right: 5%;
+}
+.submit-button-en {
+  background-color: rgb(74, 74, 74);
+}
+.submit-button-en:hover {
+  border: 1px solid aqua;
+  color: aqua;
 }
